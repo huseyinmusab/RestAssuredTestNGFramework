@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="17" parallel="methods" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="17" parallel="methods" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.spotify.oauth2.tests.PlaylistTests">
+        <methods>
+          <include name="ShouldBeAbleToGetAPlaylist"/>
+          <include name="ShouldNotBeAbleToCreateAPlaylistWithName"/>
+          <include name="ShouldNotBeAbleToCreateAPlaylistWithExpiredToken"/>
+          <include name="ShouldBeAbleToCreateAPlaylist"/>
+          <include name="beforeMethod"/>
+          <include name="ShouldBeAbleToUpdateAPlaylist"/>
+        </methods>
+      </class> <!-- com.spotify.oauth2.tests.PlaylistTests -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
