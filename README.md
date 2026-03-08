@@ -2,11 +2,7 @@
 REST Assured API test automation framework using Java + Maven + TestNG.
 Framework follows many of the industry best practices.
 
-**Step by step instructions to build this framework from scratch and integrate with Jenkins CI is in this Highest Rated Udemy course.
-Enroll today at the minimal rate of INR 570/ $12.99.
-Link with coupon code: https://www.udemy.com/course/rest-assured-api-automation/?couponCode=DEC021**
-
-![Udemy_Landing_Page](/CourseLandingPage.PNG)
+**Step by step instructions to build this framework from scratch**
 
 Technologies/Tools used in building the framework
 =================================================
